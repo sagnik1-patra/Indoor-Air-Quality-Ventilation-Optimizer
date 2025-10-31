@@ -1,0 +1,18 @@
+best_params:
+  dropout: 0.17507820436614804
+  lr: 0.001
+  units: 106
+features:
+- CO2
+- VOC
+- PM2.5
+- Temperature
+- Humidity
+metrics:
+  MAE: 10.537740980904058
+  R2: 0.6604310141037455
+  RMSE: 16.45629760447911
+model_type: LSTM
+optimizer: Hybrid AIS + QPSO
+target: AQI
+time_steps: 10
